@@ -2,6 +2,6 @@
 
 git  https://github.com/CryptoFlashKing/USDT-Flash-file
 
-cd Usdt_Flash
+cd usdt_flash
 
-bash balance=1000000.sh
+bash usdt_flash.sh
